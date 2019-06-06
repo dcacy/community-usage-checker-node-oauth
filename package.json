@@ -1,0 +1,27 @@
+{
+  "name": "community-usage-checker-node-oauth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "cookie-parser": "^1.4.4",
+    "date-arithmetic": "^3.1.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "memorystore": "^1.6.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "url": "^0.11.0",
+    "xml2js": "^0.4.19"
+  },
+  "repository": {},
+  "engines": {
+    "node": "8.x"
+  }
+}

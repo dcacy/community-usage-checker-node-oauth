@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: dpc-community-usage-checker-oauth
+  host: dpc-community-usage-checker-oauth
+  disk_quota: 1024M
+  env:
+    DEBUG: dpc-community-usage-checker-*
+    CLIENT_ID: app_20332216_1526262233253
+    CLIENT_SECRET: a4f20078025341fbed0c2753ddfde60b5f11b155a7398679ab2449501c9f29f851a7107c95bc9b3e78c311897217a218d200e6801c5aec833054616282871da592a57cb1ea6289b837db47f7472926ec511dc7e99a07ba952f5e707b22bf9963852179c90e42f6c4269e8ffab86f85d7e6f01bd9a71ac424f51ab8211c23a8c
+    CONNECTIONS_HOST: apps.na.collabserv.com
